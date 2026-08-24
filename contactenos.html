@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es-CR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contáctenos | Arepa Station</title>
+<meta name="description" content="Escríbenos, llámanos o visítanos en Urban Plaza, piso 2, Local 202A, Lindora, Santa Ana. Mapa, horario y redes sociales de Arepa Station.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;0,700;0,900;1,500;1,600&family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<a href="#contenido" class="oculto-visual">Saltar al contenido</a>
+
+<header class="cabecera">
+  <div class="contenedor">
+    <a href="index.html" class="marca">
+      <span class="marca-sello" aria-hidden="true">AS</span>
+      <span>Arepa Station<small>Lindora · Santa Ana</small></span>
+    </a>
+
+    <nav class="nav-principal" id="nav-principal" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="menu.html">Menú</a>
+      <a href="galeria.html">Galería</a>
+      <a href="pedidos.html">Pedidos para llevar</a>
+      <a href="contactenos.html" aria-current="page">Contáctenos</a>
+    </nav>
+
+    <div class="nav-acciones">
+      <a href="pedidos.html#pedidos" class="boton boton--primario">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m-10 4a1 1 0 100 2 1 1 0 000-2zm10 0a1 1 0 100 2 1 1 0 000-2z"/></svg>
+        <span>Pedir ahora</span>
+      </a>
+      <button class="nav-alterna" id="boton-menu" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="nav-principal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="contenido">
+
+  <section class="hero" style="padding:64px 0 56px;">
+    <div class="contenedor" style="display:block;">
+      <span class="hero-tablero"><span class="punto" aria-hidden="true"></span> Andén de contacto</span>
+      <h1 style="font-size:clamp(2.2rem, 1.8rem + 2vw, 3.4rem);">Contáctenos</h1>
+      <p class="hero-texto">¿Preguntas, reservaciones para grupos o algún comentario? Escríbenos por el formulario o encuéntranos por estos medios.</p>
+    </div>
+  </section>
+
+  <section class="seccion" style="padding-top:56px;">
+    <div class="contenedor-formulario">
+
+      <div class="rejilla rejilla--2" style="align-items:start; gap:44px;">
+
+        <!-- Formulario -->
+        <div class="tarjeta-form aparecer">
+          <h3 style="margin-bottom:8px;">Escríbenos</h3>
+          <p class="entradilla" style="margin-bottom:28px;">Te respondemos lo antes posible durante nuestro horario de atención.</p>
+
+          <form id="form-contacto" novalidate>
+            <div class="fila-2">
+              <div class="campo">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required autocomplete="name">
+              </div>
+              <div class="campo">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" autocomplete="tel">
+              </div>
+            </div>
+
+            <div class="campo">
+              <label for="correo">Correo electrónico</label>
+              <input type="email" id="correo" name="correo" required autocomplete="email">
+            </div>
+
+            <div class="campo">
+              <label for="asunto">Asunto</label>
+              <select id="asunto" name="asunto">
+                <option>Consulta general</option>
+                <option>Reservación para grupo</option>
+                <option>Pedido para llevar</option>
+                <option>Comentario o sugerencia</option>
+              </select>
+            </div>
+
+            <div class="campo">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" required></textarea>
+            </div>
+
+            <button type="submit" class="boton boton--primario boton--bloque">Enviar mensaje</button>
+
+            <div class="mensaje-envio" id="mensaje-envio">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+              <span>¡Gracias! Tu mensaje quedó registrado, te contactaremos pronto.</span>
+            </div>
+          </form>
+        </div>
+
+        <!-- Datos de contacto + mapa -->
+        <div class="panel-contacto">
+
+          <div class="linea-contacto aparecer">
+            <div class="icono" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg>
+            </div>
+            <div>
+              <h4>Dirección</h4>
+              <p>Urban Plaza, piso 2, Local 202A<br>Lindora, Santa Ana, Pozos, San José, Costa Rica</p>
+            </div>
+          </div>
+
+          <div class="linea-contacto aparecer">
+            <div class="icono" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3l2 5-2.5 1.5a11 11 0 005 5L14 14l5 2v3a2 2 0 01-2 2h-1C9.163 21 3 14.837 3 7V5z"/></svg>
+            </div>
+            <div>
+              <h4>Teléfono y WhatsApp</h4>
+              <p><a href="tel:+50660069224">+506 6006 9224</a> · <a href="https://wa.me/50660069224" target="_blank" rel="noopener">Escribir por WhatsApp</a></p>
+            </div>
+          </div>
+
+          <div class="linea-contacto aparecer">
+            <div class="icono" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path stroke-linecap="round" d="M12 7v5l3 3"/></svg>
+            </div>
+            <div>
+              <h4>Horario</h4>
+              <div class="horario-tablero" style="margin-top:10px;">
+                <div class="horario-fila cerrado"><span class="dia">Lunes</span><span class="hora">Cerrado</span></div>
+                <div class="horario-fila"><span class="dia">Martes – Viernes</span><span class="hora">12:00 m.d. – 8:00 p.m.</span></div>
+                <div class="horario-fila"><span class="dia">Sábado</span><span class="hora">8:00 a.m. – 8:00 p.m.</span></div>
+                <div class="horario-fila"><span class="dia">Domingo</span><span class="hora">9:00 a.m. – 4:00 p.m.</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="linea-contacto aparecer">
+            <div class="icono" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+            </div>
+            <div>
+              <h4>Redes sociales</h4>
+              <p><a href="https://www.instagram.com/arepastationcr/" target="_blank" rel="noopener">@arepastationcr</a> en Instagram · <a href="https://www.facebook.com/arepastationcr/" target="_blank" rel="noopener">Facebook</a></p>
+            </div>
+          </div>
+
+          <div class="mapa-marco aparecer" style="height:280px;">
+            <iframe
+              src="https://maps.google.com/maps?q=9.9518893,-84.1965040&z=17&output=embed"
+              title="Mapa de ubicación de Arepa Station en Urban Plaza"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+
+          <a href="https://www.google.com/maps/dir/?api=1&destination=9.9518893,-84.1965040" target="_blank" rel="noopener" class="boton boton--contactenos boton--bloque">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
+            <span>Cómo llegar en Google Maps</span>
+          </a>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="pie">
+  <div class="contenedor">
+    <div class="pie-rejilla">
+      <div class="pie-marca">
+        <a href="index.html" class="marca" style="color:var(--crema-2);">
+          <span class="marca-sello" aria-hidden="true">AS</span>
+          <span>Arepa Station</span>
+        </a>
+        <p>Cocina venezolana hecha en casa, en el corazón de Lindora, Santa Ana.</p>
+        <div class="pie-redes">
+          <a href="https://www.instagram.com/arepastationcr/" target="_blank" rel="noopener" aria-label="Instagram de Arepa Station">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          </a>
+          <a href="https://www.facebook.com/arepastationcr/" target="_blank" rel="noopener" aria-label="Facebook de Arepa Station">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="https://wa.me/50660069224" target="_blank" rel="noopener" aria-label="WhatsApp de Arepa Station">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h5>Navegación</h5>
+        <ul>
+          <li><a href="menu.html">Menú</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="pedidos.html">Pedidos para llevar</a></li>
+          <li><a href="contactenos.html">Contáctenos</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>Estación</h5>
+        <ul>
+          <li>Urban Plaza, piso 2</li>
+          <li>Local 202A</li>
+          <li>Lindora, Santa Ana</li>
+          <li>Pozos, San José</li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>Contacto</h5>
+        <ul>
+          <li><a href="tel:+50660069224">+506 6006 9224</a></li>
+          <li><a href="https://wa.me/50660069224" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="pedidos.html">Uber Eats</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="pie-base">
+      <span>© <span id="anio-actual">2026</span> Arepa Station · Lindora, Santa Ana</span>
+      <span>Hecho con cariño venezolano en Costa Rica</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

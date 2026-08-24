@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es-CR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menú | Arepa Station</title>
+<meta name="description" content="Menú completo de Arepa Station: arepas, cachapas, platos fuertes y acompañantes venezolanos. Precios en colones. Lindora, Santa Ana.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;0,700;0,900;1,500;1,600&family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<a href="#contenido" class="oculto-visual">Saltar al contenido</a>
+
+<header class="cabecera">
+  <div class="contenedor">
+    <a href="index.html" class="marca">
+      <span class="marca-sello" aria-hidden="true">AS</span>
+      <span>Arepa Station<small>Lindora · Santa Ana</small></span>
+    </a>
+
+    <nav class="nav-principal" id="nav-principal" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="menu.html" aria-current="page">Menú</a>
+      <a href="galeria.html">Galería</a>
+      <a href="pedidos.html">Pedidos para llevar</a>
+      <a href="contactenos.html">Contáctenos</a>
+    </nav>
+
+    <div class="nav-acciones">
+      <a href="pedidos.html#pedidos" class="boton boton--primario">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m-10 4a1 1 0 100 2 1 1 0 000-2zm10 0a1 1 0 100 2 1 1 0 000-2z"/></svg>
+        <span>Pedir ahora</span>
+      </a>
+      <button class="nav-alterna" id="boton-menu" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="nav-principal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="contenido">
+
+  <section class="hero" style="padding:64px 0 56px;">
+    <div class="contenedor" style="display:block;">
+      <span class="hero-tablero"><span class="punto" aria-hidden="true"></span> Tablero de salidas</span>
+      <h1 style="font-size:clamp(2.2rem, 1.8rem + 2vw, 3.4rem);">El menú completo</h1>
+      <p class="hero-texto">Arepas, cachapas, platos fuertes y acompañantes, tal como salen del budare.</p>
+    </div>
+  </section>
+
+  <section class="seccion" style="padding-top:48px;">
+    <div class="contenedor">
+
+      <nav class="menu-nav-categorias" aria-label="Categorías del menú">
+        <a href="#arepas">Arepas</a>
+        <a href="#fuertes">Cachapas y platos fuertes</a>
+        <a href="#acompanantes">Para compartir</a>
+      </nav>
+
+      <!-- ================= AREPAS ================= -->
+      <div id="arepas" class="menu-categoria">
+        <div class="tablero">
+          <h2 class="menu-categoria-titulo">Arepas</h2>
+          <div class="tablero-encabezado-fila">
+            <span>Código</span><span>Plato</span><span style="text-align:right;">Precio</span>
+          </div>
+
+          <div class="fila-plato">
+            <span class="codigo">A—01</span>
+            <div class="info-plato"><h4>Reina Pepiada</h4><p>Pechuga de pollo mechada, mayonesa y aguacate.</p></div>
+            <span class="precio-tablero">₡4.900</span>
+          </div>
+          <div class="fila-plato">
+            <span class="codigo">A—02</span>
+            <div class="info-plato"><h4>La Pelua</h4><p>Carne mechada y queso amarillo rallado.</p></div>
+            <span class="precio-tablero">₡4.700</span>
+          </div>
+          <div class="fila-plato">
+            <span class="codigo">A—03</span>
+            <div class="info-plato"><h4>Pabellón</h4><p>Carne mechada, frijoles negros, queso blanco y maduros.</p></div>
+            <span class="precio-tablero">₡4.700</span>
+          </div>
+          <div class="fila-plato">
+            <span class="codigo">A—04</span>
+            <div class="info-plato"><h4>La Sifrina</h4><p>Reina pepiada con queso amarillo.</p></div>
+            <span class="precio-tablero">₡4.700</span>
+          </div>
+          <div class="fila-plato">
+            <span class="codigo">A—05</span>
+            <div class="info-plato"><h4>La Catira</h4><p>Pollo mechado y queso amarillo.</p></div>
+            <span class="precio-tablero">₡4.700</span>
+          </div>
+          <div class="fila-plato">
+            <span class="codigo">A—06</span>
+            <div class="info-plato"><h4>La Llanera</h4><p>Carne de res a la parrilla, tomate, queso blanco y aguacate.</p></div>
+            <span class="precio-tablero">₡4.900</span>
+          </div>
+          <div class="fila-plato">
+            <span class="codigo">A—07</span>
+            <div class="info-plato"><h4>La Quesera</h4><p>Queso blanco y queso amarillo.</p></div>
+            <span class="precio-tablero">₡4.700</span>
+          </div>
+          <div class="fila-plato">
+            <span class="codigo">A—08</span>
+            <div class="info-plato"><h4>Queso de mano</h4><p>Arepa rellena de queso de mano.</p></div>
+            <span class="precio-tablero">₡4.700</span>
+          </div>
+          <div class="fila-plato">
+            <span class="codigo">A—09</span>
+            <div class="info-plato"><h4>La Rumbera</h4><p>Posta de cerdo horneada con queso amarillo.</p></div>
+            <span class="precio-tablero">₡4.700</span>
+          </div>
+          <div class="fila-plato">
+            <span class="codigo">A—10</span>
+            <div class="info-plato"><h4>La Vegetariana</h4><p>Aguacate, frijoles negros, queso blanco y maduros.</p></div>
+            <span class="precio-tablero">₡4.700</span>
+          </div>
+          <div class="fila-plato">
+            <span class="codigo">A—11</span>
+            <div class="info-plato"><h4>La Domino</h4><p>Frijoles negros y queso blanco rallado.</p></div>
+            <span class="precio-tablero">₡4.700</span>
+          </div>
+          <div class="fila-plato">
+            <span class="codigo">A—12</span>
+            <div class="info-plato"><h4>La Frita</h4><p>Plátano maduro y queso blanco rallado.</p></div>
+            <span class="precio-tablero">₡4.700</span>
+          </div>
+          <div class="fila-plato">
+            <span class="codigo">A—13</span>
+            <div class="info-plato"><h4>Asado Negro</h4><p>Carne en salsa dulce con queso blanco rallado.</p></div>
+            <span class="precio-tablero">₡4.900</span>
+          </div>
+          <div class="fila-plato">
+            <span class="codigo">A—14</span>
+            <div class="info-plato"><h4>La Margariteña</h4><p>Cazón (pescado) y queso blanco mechado.</p></div>
+            <span class="precio-tablero">₡4.900</span>
+          </div>
+          <div class="fila-plato">
+            <span class="codigo">A—15</span>
+            <div class="info-plato"><h4>Arepa Dulce</h4><p>Arepa dulce con queso blanco.</p></div>
+            <span class="precio-tablero">₡4.700</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= CACHAPAS Y PLATOS FUERTES ================= -->
+      <div id="fuertes" class="menu-categoria" style="margin-top:56px;">
+        <div class="tablero">
+          <h2 class="menu-categoria-titulo">Cachapas y platos fuertes</h2>
+          <div class="tablero-encabezado-fila">
+            <span>Código</span><span>Plato</span><span style="text-align:right;">Precio</span>
+          </div>
+
+          <div class="fila-plato">
+            <span class="codigo">P—01</span>
+            <div class="info-plato"><h4>Cachapa con queso de mano</h4><p>Cachapa de maíz tierno con queso de mano derretido.</p></div>
+            <span class="precio-tablero">₡6.000</span>
+          </div>
+          <div class="fila-plato">
+            <span class="codigo">P—02</span>
+            <div class="info-plato"><h4>Cachapa con queso de mano y carne mechada</h4><p>La cachapa clásica, con carne mechada de más.</p></div>
+            <span class="precio-tablero">₡7.850</span>
+          </div>
+          <div class="fila-plato">
+            <span class="codigo">P—03</span>
+            <div class="info-plato"><h4>Plato de pabellón criollo</h4><p>Carne mechada, frijoles negros, arroz y tajadas.</p></div>
+            <span class="precio-tablero">₡5.850</span>
+          </div>
+          <div class="fila-plato">
+            <span class="codigo">P—04</span>
+            <div class="info-plato"><h4>Plato de asado negro</h4><p>Carne en salsa dulce, servida como plato fuerte.</p></div>
+            <span class="precio-tablero">₡5.850</span>
+          </div>
+          <div class="fila-plato">
+            <span class="codigo">P—05</span>
+            <div class="info-plato"><h4>Plato de pabellón margariteño</h4><p>Versión marinera del pabellón, con cazón.</p></div>
+            <span class="precio-tablero">₡5.850</span>
+          </div>
+          <div class="fila-plato">
+            <span class="codigo">P—06</span>
+            <div class="info-plato"><h4>Patacón de reina</h4><p>Patacones rellenos al estilo reina pepiada.</p></div>
+            <span class="precio-tablero">₡6.000</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= ACOMPAÑANTES ================= -->
+      <div id="acompanantes" class="menu-categoria" style="margin-top:56px;">
+        <div class="tablero">
+          <h2 class="menu-categoria-titulo">Para compartir</h2>
+          <div class="tablero-encabezado-fila">
+            <span>Código</span><span>Plato</span><span style="text-align:right;">Precio</span>
+          </div>
+
+          <div class="fila-plato">
+            <span class="codigo">C—01</span>
+            <div class="info-plato"><h4>Tequeños de queso</h4><p>Ración de 5, con reducción de tapa dulce.</p></div>
+            <span class="precio-tablero">₡4.000</span>
+          </div>
+          <div class="fila-plato">
+            <span class="codigo">C—02</span>
+            <div class="info-plato"><h4>Mini arepas de chicharrón</h4><p>Ración de 5, con queso blanco y natilla.</p></div>
+            <span class="precio-tablero">₡3.600</span>
+          </div>
+          <div class="fila-plato">
+            <span class="codigo">C—03</span>
+            <div class="info-plato"><h4>Mini arepitas dulces</h4><p>Ración de 5, con queso blanco y natilla.</p></div>
+            <span class="precio-tablero">₡3.600</span>
+          </div>
+          <div class="fila-plato">
+            <span class="codigo">C—04</span>
+            <div class="info-plato"><h4>Mini arepitas fritas</h4><p>Ración de 5, con queso blanco rallado.</p></div>
+            <span class="precio-tablero">₡3.600</span>
+          </div>
+          <div class="fila-plato">
+            <span class="codigo">C—05</span>
+            <div class="info-plato"><h4>Mandocas</h4><p>Masa de plátano maduro y harina de maíz, fritas. Con queso fresco rallado y natilla.</p></div>
+            <span class="precio-tablero">₡4.750</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="centro-texto" style="margin-top:56px;">
+        <a href="pedidos.html" class="boton boton--dorado">Pedir este menú para llevar</a>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="pie">
+  <div class="contenedor">
+    <div class="pie-rejilla">
+      <div class="pie-marca">
+        <a href="index.html" class="marca" style="color:var(--crema-2);">
+          <span class="marca-sello" aria-hidden="true">AS</span>
+          <span>Arepa Station</span>
+        </a>
+        <p>Cocina venezolana hecha en casa, en el corazón de Lindora, Santa Ana.</p>
+        <div class="pie-redes">
+          <a href="https://www.instagram.com/arepastationcr/" target="_blank" rel="noopener" aria-label="Instagram de Arepa Station">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          </a>
+          <a href="https://www.facebook.com/arepastationcr/" target="_blank" rel="noopener" aria-label="Facebook de Arepa Station">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="https://wa.me/50660069224" target="_blank" rel="noopener" aria-label="WhatsApp de Arepa Station">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h5>Navegación</h5>
+        <ul>
+          <li><a href="menu.html">Menú</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="pedidos.html">Pedidos para llevar</a></li>
+          <li><a href="contactenos.html">Contáctenos</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>Estación</h5>
+        <ul>
+          <li>Urban Plaza, piso 2</li>
+          <li>Local 202A</li>
+          <li>Lindora, Santa Ana</li>
+          <li>Pozos, San José</li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>Contacto</h5>
+        <ul>
+          <li><a href="tel:+50660069224">+506 6006 9224</a></li>
+          <li><a href="https://wa.me/50660069224" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="pedidos.html">Uber Eats</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="pie-base">
+      <span>© <span id="anio-actual">2026</span> Arepa Station · Lindora, Santa Ana</span>
+      <span>Hecho con cariño venezolano en Costa Rica</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
